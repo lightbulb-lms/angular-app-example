@@ -1,3 +1,7 @@
+Below this description is the default output of running `ng new` and creating an application.
+
+Across some various feature branches and work, I'll demonstrate adding new components, routes, and implement actually calling services to retrieve data to be displayed on the app
+
 # AngularAppExample
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 10.1.6.
