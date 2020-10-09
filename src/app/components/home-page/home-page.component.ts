@@ -14,6 +14,9 @@ export class HomePageComponent implements OnInit {
   constructor(private jokeService: JokeService) { }
 
   ngOnInit(): void {
+    this.jokeService.getOneRandomJoke().subscribe(
+      response => this.jokeOfTheDay = response
+    );
   }
 
 }
